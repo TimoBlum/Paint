@@ -4,9 +4,9 @@
 
 
 
-![Paint input](paintGame2.png)
+![Paint input](colorGame2.png)
 
 
 
 
-![Paint](paintGame.png)
+![Paint](colorGame.png)
