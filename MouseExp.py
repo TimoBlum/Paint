@@ -6,7 +6,8 @@ xy = 600
 mousePos = ()
 win = pygame.display.set_mode((xy, xy))
 win.fill(WHITE)
-colors = {'red': (255,0,0), 'green': (0,255,0), 'blue': (0,0,255)}
+colors = {'red': (255,0,0), 'green': (0,255,0), 'blue': (0,0,255), 'purple': (160, 32, 240), 'yellow': (255, 255, 0), 'lime': (191, 255, 0),
+          'pink': (255, 192, 203), 'brown': (165, 42, 42)}
 
 
 def redrawGameWin():
@@ -37,7 +38,7 @@ class Mouse():
         return int(input('Choose the size: '))
 
     def makeColor(self):
-        return input('Choose the color (red, green, blue): ').lower()
+        return input('Choose the color (red, green, blue, brown, pink, yellow, lime, purple): ').lower()
 
 
 mouse = Mouse()
